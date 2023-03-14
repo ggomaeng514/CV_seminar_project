@@ -55,4 +55,14 @@ whale이미지는 trian, valid, test셋에 대해  315 90 45 개씩 배정해주
 ![seaborn](https://user-images.githubusercontent.com/126471047/223682107-e352a76c-f68b-4e1f-9e26-cc02d97dba24.png)
 
 
-epoch 26에서 Accuracy가 가장 컸고 epoch 44에서 Loss가 가장 낮은 결과를 보였다. epochs를 더 늘려 모델을 더 학습시켜야할 필요성이 보인다
+epoch 26에서 Accuracy가 가장 컸고 epoch 44에서 Loss가 가장 낮은 결과를 보였다. 
+
+epochs를 더 늘려 모델을 더 학습시켜야할 필요성이 보여 100 epoch로 수정하여 학습시킨결과 46 epochs에서 Accuracy 94.977.
+
+* * *
+
+##  Test set에 모델 적용
+
+best epoch 46에서의 가중치를 pickle파일로 저장한 뒤 test셋에 적용하여 성능을 테스트 한 결과 Loss : 0.302, Accuracy : 87.116% 달성
+
+
