@@ -1,5 +1,5 @@
 # CV_seminar_project
-
+https://github.com/inhovation97/Computer_vision_seminar
 
 ## data preprocessing
 
